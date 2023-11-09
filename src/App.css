@@ -1,9 +1,48 @@
+.user-conteiner{
+  width: 100%;
+  max-width: 1200px;
+  padding: 5 10px;
+  margin: 30px auto;
+}
+.user-conteiner header{
+  display: flex;
+  align-items: center;
+}
+.user-conteiner header img{
+  height: 50px;
+}
+.user-conteiner header button{
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #DCDCE6;
+  background: green;
+  margin-left: 16PX;
+  transition: border-color 0.5s;
+}
+
+.user-conteiner header button:hover{
+  border-color: #510bac;
+}
+
+table,th,td{
+  border: ipx solid black;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 20px;
+  text-align: left;
+}
 .App {
   text-align: center;
 }
 
+.App-conteiner header button:hover{
+  border-color: #510bac;
+}
+
 .App-logo {
-  height: 40vmin;
+  height: 50px;
   pointer-events: none;
 }
 
